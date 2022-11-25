@@ -14,19 +14,13 @@
     font-size: 100px;
 }
 
-.error:hover {
-    font-family: 'Rubik Glitch', cursive;
-}
 
-.page {
-    font-size: 60px;
-}
 
 .e404 {
     font-size: 150px;
 }
 
-.e404:hover {
+.e404:hover,.error:hover {
     font-family: 'Rubik Glitch', cursive;
 }
 
@@ -45,7 +39,7 @@
     animation: distort1 300ms linear infinite;
 }
 
-.e404:hover:after {
+.e404:hover:after{
     top: 50.5%;
     left: 50.5%;
     color: rgba(0, 255, 255);
