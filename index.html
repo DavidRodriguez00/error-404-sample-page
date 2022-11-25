@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aprenda programación web con React</title>
+  <meta name="google" content="notranslate" />
+  <title>Error 404 | Page not found</title>
   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet" />
-  <link rel="stylesheet" href="./css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Rubik+Glitch&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" type="text/css" href="./src/css/index.css">
+  <link rel="stylesheet" type="text/css" href="./src/css/glitch404.css">
+
 </head>
 
 <body class="body">
@@ -19,7 +26,8 @@
     <nav class="header-nav">
       <div class="header-nav-container">
         <a href="#hero" class="header-nav__logo-container">
-          <img src="./img/logo.png" alt="Logo Web" class="header-nav__logo" />
+          <img src="./assets/img/logo.png" alt="Logo Web"
+            class="header-nav__logo animate__animated animate__backInLeft" />
         </a>
         <figure class="header-nav__menu-icon-container" id="headerNavMenuIconContainer">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fff" class="header-nav__menu-icon">
@@ -27,19 +35,13 @@
           </svg>
         </figure>
         <ul class="header-nav__menu-link-list">
-          <li class="header-nav__menu-link-item">
-            <a href="#learning" class="header-nav__menu-link">Cursos</a>
+          <li class="header-nav__menu-link-item animate__animated animate__backInDown">
+            <a href="https://github.com/DavidRodriguez00" class="header-nav__menu-link">GitHub</a>
           </li>
-          <li class="header-nav__menu-link-item">
-            <a href="#learning" class="header-nav__menu-link">Nosotros</a>
-          </li>
-          <li class="header-nav__menu-link-item">
-            <a href="#learning" class="header-nav__menu-link">Contacto</a>
-          </li>
-          <li class="header-nav__menu-link-item">
-            <a href="https://www.linkedin.com/in/elliotgaramendi/"
+          <li class="header-nav__menu-link-item animate__animated animate__backInDown">
+            <a href="https://www.linkedin.com/in/david-rodriguez-marban/"
               class="header-nav__menu-link header-nav__menu-link--active" target="_blank"
-              rel="noopener noreferrer">Elliot</a>
+              rel="noopener noreferrer">David</a>
           </li>
           <li class="header-nav__menu-link-item header-nav__menu-close-icon-container"
             id="headerNavMenuCloseIconContainer">
@@ -59,69 +61,31 @@
 
   <main class="main">
     <section class="hero" id="hero">
-      <div class="hero__container">
-        <h2 class="hero__title">Aprenda programación web con React</h2>
-      </div>
-      <a href="#learning" class="hero__learn-button hero__learn-button--active">¡Aprender!</a>
-      <figure class="hero__stars-image-container">
-        <img src="./img/hero-stars.png" alt="Estrellas de fondo" class="hero__stars-image" />
+      <figure class="hero__stars-image-container animate__animated animate__fadeInDown animate__delay-3s">
+        <img src="./assets/img/hero-stars.png" alt="Estrellas de fondo" class="hero__stars-image" />
       </figure>
       <figure class="hero__moon-image-container">
-        <img src="./img/hero-moon.png" alt="Estrellas de fondo" class="hero__moon-image" />
+        <img src="./assets/img/hero-moon.png" alt="Luna"
+          class="hero__moon-image animate__animated animate__bounceInDown animate__delay-3s" />
       </figure>
-      <figure class="hero__mountains-behind-image-container">
-        <img src="./img/hero-mountains-behind.png" alt="Estrellas de fondo" class="hero__mountains-behind-image" />
+      <figure class="hero__mountains-behind-image-container animate__animated animate__slideInUp animate__delay-2s">
+        <img src="./assets/img/hero-mountains-behind.png" alt="Montanas" class="hero__mountains-behind-image" />
       </figure>
-      <figure class="hero__mountains-front-image-container">
-        <img src="./img/hero-mountains-front.png" alt="Estrellas de fondo" class="hero__mountains-front-image" />
+      <figure class="hero__mountains-front-image-container animate__animated animate__bounceInUp animate__delay-1s">
+        <img src="./assets/img/hero-mountains-front.png" alt="Canon" class="hero__mountains-front-image" />
       </figure>
-    </section>
+      <div>
 
-    <section class="learning" id="learning">
-      <div class="learning__container">
-        <h2 class="learning__topic-title">Introducción a React</h2>
-        <p class="learning__paragraph">
-          Todo lo necesario y esencial de React, (Create React App, JSX, Components, Props, State, Conditional
-          Rendering, Basic Hooks, Styled Components y más)
-        </p>
-        <div class="learning__topics">
-          <article class="learning__topic">
-            <div class="learning__topic-icon-container">
-              <img src="./img/code.svg" alt="Ícono de etiqueta" class="learning__topic-icon" />
-            </div>
-            <h3 class="learning__topic-title">JSX</h3>
-            <p class="learning__topic-paragraph">
-              Extensión de la sintaxis de JavaScript. Recomendamos usarlo con React para describir cómo debería ser la
-              interfaz de usuario.
-            </p>
-          </article>
+      </div>
+      <div class="container404 animate__animated animate__fadeInDown animate__delay-2s">
+        <p class="two e404 font404 animate__animated animate__wobble animate__delay-2s">404.</p>
 
-          <article class="learning__topic">
-            <div class="learning__topic-icon-container">
-              <img src="./img/shapes.svg" alt="Ícono de componentes" class="learning__topic-icon" />
-            </div>
-            <h3 class="learning__topic-title">Components</h3>
-            <p class="learning__topic-paragraph">
-              Es un elemento de software visual que tiene su propio estado, recibe unas propiedades e implementa su
-              propia lógica de renderizado.
-            </p>
-          </article>
-
-          <article class="learning__topic">
-            <div class="learning__topic-icon-container">
-              <img src="./img/paint.svg" alt="Ícono de estilos" class="learning__topic-icon" />
-            </div>
-            <h3 class="learning__topic-title">Styled Components</h3>
-            <p class="learning__topic-paragraph">
-              Alternativa de mejorar CSS para diseñar componentes en React
-            </p>
-          </article>
-        </div>
       </div>
     </section>
   </main>
 
-  <script src="./js/index.js" type="module"></script>
+  <script src="./src/js/index.js" type="module"></script>
+
 </body>
 
 </html>

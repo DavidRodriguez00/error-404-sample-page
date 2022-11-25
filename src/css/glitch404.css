@@ -1,0 +1,140 @@
+.container404 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.e404 {
+    font-size: 150px;
+}
+
+.e404:hover {
+    font-family: 'Rubik Glitch', cursive;
+}
+
+.e404:hover:before,
+.e404:hover:after {
+    position: absolute;
+    content: '404.';
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.e404:hover:before {
+    top: 49.5%;
+    left: 49.5%;
+    color: rgba(255, 0, 0);
+    animation: distort1 300ms linear infinite;
+}
+
+.e404:hover:after {
+    top: 50.5%;
+    left: 50.5%;
+    color: rgba(0, 255, 255);
+    animation: distort2 300ms linear infinite;
+}
+
+@keyframes distort1 {
+    0% {
+        top: 49.5%;
+        left: 49.5%;
+    }
+
+    12.5% {
+        top: 52%;
+        left: 52%;
+    }
+
+    25% {
+        top: 49.5%;
+        left: 50.5%;
+    }
+
+    37.5% {
+        top: 50%;
+        left: 50%;
+    }
+
+    50% {
+        top: 50.5%;
+        left: 50.5%;
+    }
+
+    62.5% {
+        top: 48%;
+        left: 48%;
+    }
+
+    75% {
+        top: 50.5%;
+        left: 49.5%;
+    }
+
+    87.5% {
+        top: 50%;
+        left: 49.5%;
+    }
+
+    100% {
+        top: 49.5%;
+        left: 49.5%;
+    }
+}
+
+@keyframes distort2 {
+    0% {
+        top: 50.5%;
+        left: 50.5%;
+    }
+
+    12.5% {
+        top: 50%;
+        left: 50.5%;
+    }
+
+    25% {
+        top: 49.5%;
+        left: 50.5%;
+    }
+
+    37.5% {
+        top: 52%;
+        left: 52%;
+    }
+
+    50% {
+        top: 49.5%;
+        left: 49.5%;
+    }
+
+    62.5% {
+        top: 50%;
+        left: 50%;
+    }
+
+    75% {
+        top: 50.5%;
+        left: 49.5%;
+    }
+
+    87.5% {
+        top: 48%;
+        left: 48%;
+    }
+
+    100% {
+        top: 50.5%;
+        left: 50.5%;
+    }
+}
+
+.font404 {
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 150px;
+    color: white;
+}
